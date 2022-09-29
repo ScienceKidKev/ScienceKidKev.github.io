@@ -18,15 +18,11 @@ a:link {
   
   a:visited {
     text-decoration: none;
+    color: #ff8906;
   }
 
   a:hover {
     text-decoration: underline;
-  }
-
-  /* visited link */
-  a:visited {
-    color: green;
   }
   
   /* mouse over link */
