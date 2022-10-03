@@ -12,6 +12,7 @@ color: #a7a9be;
 a:link {
     color: #ff8906;
   }
+
   a:link{
     text-decoration: none;
   }
@@ -34,3 +35,23 @@ a:link {
   a:active {
     color: blue;
   }
+
+#name {
+  color: #ffffff;
+  text-align: center;
+}
+
+
+#navbar {
+  background-color: #656667;
+}
+
+#navbar >a{
+  color: aliceblue;
+  padding: 8px;
+  display: inline-block;
+}
+
+#navbar >a:hover{
+  background-color: #4f4f4f;
+}
