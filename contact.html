@@ -6,6 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Contact Me</title>
+
+    <style> 
+        input[type=text], input[type=tel] {
+          width: 130px;
+          box-sizing: border-box;
+          border: 2px solid rgb(204, 112, 14);
+          border-radius: 4px;
+          font-size: 16px;
+          background-color: rgba(45, 42, 42, 0.425);
+          color: aliceblue;
+          background-image: url('searchicon.png');
+          background-position: 10px 10px; 
+          background-repeat: no-repeat;
+          padding: 5px 5px 5px 5px;
+          transition: width 0.4s ease-in-out;
+        }
+        
+        input[type=text]:focus , input[type=tel]:focus {
+          width: 30%;
+        }
+        </style>
 </head>
 <body>
     <div id="navbar">
@@ -18,17 +39,30 @@
     </div>
     <main>
         <h1>Contact Me</h1>
-        <form>
+        <form
+            action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+            method="post"
+        >
             <label>Name:</label>
-            <input type="text">
+            <input type="text" name="name">
             <br>
             <label>Email:</label>
-            <input type="text">
+            <input type="text" name="email">
             <br>
-            <label>Phone Number</label>
-            <input type="number">
+            <label>Phone Number:</label>
+            <input type="tel" name="phone number">
             <br>
+            <h2>Best Form Of Communiucation?</h2>
+            <input type="radio" name="contact_type" value="Phone-Call"> Phone-Call
+            <input type="radio" name="contact_type" value="Email"> Email
+            <input type="radio" name="contact_type" value="Text-Message"> Text-Message
+            <br>
+            <input type="submit">
+            <input type="reset">
+            <input name="send-to" value="kheron@brooklynsteamcenter.org" hidden>
         </form>
+    
+        
     </main>
 </body>
 </html>
