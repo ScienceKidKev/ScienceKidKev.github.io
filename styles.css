@@ -75,3 +75,9 @@ a:link {
     text-align: center;
   }
 }
+
+#portrait{
+  .center {
+    text-align: center;
+  }
+}
