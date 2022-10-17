@@ -63,6 +63,10 @@ a:link {
 
 
 @media screen and (max-width:480px ) {
+  #portrait {
+    width: 100vw;
+    height: auto;
+  }
   #navbar {
     text-align: center;
   }
