@@ -67,6 +67,10 @@ a:link {
     width: 100vw;
     height: auto;
   }
+  #welcome {
+    width: 100vw;
+    height: auto;
+  }
   #navbar {
     text-align: center;
   }
