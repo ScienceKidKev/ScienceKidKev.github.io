@@ -61,6 +61,11 @@ a:link {
   color: blue;
 }
 
+#portrait {
+  float: left;
+  margin-right: 8px;
+  border-radius: 10%;
+}
 
 @media screen and (max-width:480px ) {
   #portrait {
