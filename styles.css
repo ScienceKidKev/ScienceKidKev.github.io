@@ -86,3 +86,43 @@ a:link {
     text-align: center;
   
 }
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-color: #cc8f16;
+  background-color:#3c3b3b;
+  border-radius: 8px;
+  
+
+
+}
+
+#Response {
+padding: 100px 50px;
+
+}
+
+input[type=text]:hover {
+border: 3px solid rgb(222, 157, 18);
+}
+
+input[type="Submit"] {
+
+font-family:'Zilla Slab', monospace;
+color: #020826;
+border-radius: 8px;
+background-color:#eaddcf;
+border-color: #d48626;
+
+}
+
+input[type="Reset"] {
+font-family:'Zilla Slab', monospace;
+color: #020826;
+border-radius: 8px;
+background-color:#eaddcf;
+border-color: #da8e1d;
+}
