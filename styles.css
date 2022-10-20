@@ -101,8 +101,17 @@ input[type="text"] {
 }
 
 #Response {
-padding: 100px 50px;
-
+padding: 100px;
+width: 100%;
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-color: #cc8f16;
+  background-color:#3c3b3b;
+  border-radius: 8px;
+  color: #fffffe;
+  font-family:'Zilla Slab', monospace;
+  font-size:x-large;
 }
 
 input[type=text]:hover {
