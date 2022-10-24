@@ -85,6 +85,9 @@ a:link {
 
 #portrait{
   
+    border: 2px solid ;
+    border-radius: 12px;
+    padding: 5px;
     text-align: center;
   
 }
