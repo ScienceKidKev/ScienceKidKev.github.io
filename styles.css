@@ -79,6 +79,8 @@ a:link {
   #navbar {
     text-align: center;
   }
+  max-width: 36rem;
+
 }
 
 #portrait{
@@ -137,7 +139,6 @@ border-color: #da8e1d;
 }
 
 
-max-width: 36rem;
   
 
 
