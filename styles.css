@@ -84,7 +84,10 @@ main {
   #navbar {
     text-align: center;
   }
-  max-width: 36rem;
+  
+  body{
+    margin: 0 auto;
+  }
 
 }
 
